@@ -1,0 +1,17 @@
+# Dependencies and generated output
+node_modules/
+node_modules.*/
+.next/
+out/
+dist/
+coverage/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+
+# Next.js generated type declarations
+next-env.d.ts
